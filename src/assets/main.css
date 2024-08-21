@@ -1,0 +1,24 @@
+.letter {
+    padding: 10px;
+    margin: 10px;
+    background-color: #82c069;
+    color: #333;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 32px;
+    text-align: center;
+}
+.mainmenu{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    background-color: #e76666;
+}
+.spacing{
+    padding: 10px;
+    margin: 10px;
+}
+.spacing2{
+    padding: 20px;
+    margin: 20px;
+}
