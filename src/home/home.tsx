@@ -22,9 +22,11 @@ const Home: FunctionComponent = () => {
 
             <h2>{isEditing ? 'Editing...' : 'Finished Editing'}</h2>
 
+            <h3>{selectedMoto}</h3>
+
             <Suspense fallback={<Loading spinnerText={'motor aan het laden'}/>}>
                 {selectedMoto !== '' &&
-                    <Motor city={selectedMoto} allowFetch={!isEditing}/>}
+                    <Motor make={selectedMoto} allowFetch={!isEditing}/>}
             </Suspense>
         </div>
     )
